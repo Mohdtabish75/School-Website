@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+     
+}
+.name{
+    text-align: center;
+    color: rgb(8, 150, 252);
+    font-size: 10rem;
+    /* background-image: url(school\ boys.jpeg); */
+    background-color: black;
+}
+.name h1{
+    font-size: 5rem;
+}
+.name h2{
+    color:  rgb(8, 150, 252);
+}
+.andha img{
+    width: 426px;
+    height: 200px;
+}
+.andha h1{
+    text-align: center;
+    /* background-image: url(medals.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover;
+    background-position: center; */
+    font-size: 46px;
+}
+.reviews {
+    align-items: center;
+   
+    text-align: center;
+}
+.reviewsh1{
+    text-align: center;
+    font-size: 50px;
+    
+}
+.reviews .review_box{
+    width: 95%;
+    height: 50vh;
+    margin: 15px auto;
+    display: flex;
+    /* align-items: center;  */
+    justify-content: center;
+}
+.reviews .review_box .review_card{
+    width: 400px;
+    height: 340px;
+    box-shadow: 0 0 8px #089da1;
+    padding: 15px;
+    /* margin: 0 12px; */
+}
+.reviews .review_box .review_card .card_top img{
+    width: 180px;
+    height: 110px;
+    border-radius: 25%;
+    
+}
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.sun{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    background-image: url(school\ boys.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 10s infinite ease-in-out;
+    color:  rgb(8, 150, 252);
+}
+.sher{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+.sun h1{
+    font-size: 58px;
+}
+.sher a{
+    background: black;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 20px;
+}
+.sher a:hover{
+    background: green;
+    color: yellow;
+}
+@keyframes change{
+    0%
+    {
+        background-image: url(school\ boys.jpeg)
+    }
+    20%
+    {
+        background-image: url(school.avif)
+    }
+    40%
+    {
+        background-image: url(dn.jpeg)
+    }
+    60%
+    {
+        background-image: url(sc.jpg)
+    }
+    80%
+    {
+        background-image: url(school.avif)
+    }
+}
+.about h1{
+    text-align: center;
+    color: black;
+    font-size: 48px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.about p{
+    text-align: center;
+    color: black;
+}
+.about{
+    box-shadow: 0 0 8px;
+    width: 100%;
+}
+.int{
+    color: black;
+    background-color: cyan;
+    text-align: center;
+    margin-left: 17rem;
+}
+.frm{
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 0 18px;
+    background-color: #089da1;
+}
+footer{
+    width: 100%;
+    background: #919191;
+}
+footer .footer_main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+footer .footer_main .tag img{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+footer .footer_main .tag p{
+width: 250px;
+line-height: 22px;
+text-align: justify;
+}
+footer .footer_main .tag h1{
+    font-size: 25px;
+    margin: 25px 0;
+    color: black;
+}
+footer .footer_main .tag a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin: 10px 0;
+}
+footer .footer_main .tag .social_link{
+    margin: 0 5px;
+}
+footer .footer_main .tag .search_bar{
+    width: 230px;
+    height: 30px;
+    background: rgba(202,202,202);
+    border-radius: 25px;
+}
+footer .footer_main .tag .search_bar input{
+    width: 200px;
+    padding: 2px 0;
+    position: relative;
+    top:  17%;
+    left: 6%;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    background: none;
+}
+footer .footer_main .tag .search_bar button{
+    padding: 7px 15px;
+    background: #089;
+    border: none;
+    margin-top: 15px;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+footer .end{
+    font-size: 25px;
+    display: flex;
+    padding: 15px;
+    margin-top: 6rem;
+    
+    color: black;
+}
